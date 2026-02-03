@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A8545C2F323F0500413976 /* PedalPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A8545B2F323F0500413976 /* PedalPalApp.swift */; };
+		16A854622F323F0600413976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A854612F323F0600413976 /* Assets.xcassets */; };
+		16A854902F32431300413976 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A8548F2F32430E00413976 /* AppEnvironment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A854682F323F0700413976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A854502F323F0400413976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A854572F323F0400413976;
+			remoteInfo = PedalPal;
+		};
+		16A854722F323F0700413976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A854502F323F0400413976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A854572F323F0400413976;
+			remoteInfo = PedalPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A854582F323F0400413976 /* PedalPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedalPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A8545B2F323F0500413976 /* PedalPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalPalApp.swift; sourceTree = "<group>"; };
+		16A854612F323F0600413976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A854672F323F0700413976 /* PedalPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A854712F323F0700413976 /* PedalPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A8548F2F32430E00413976 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		16A8546A2F323F0700413976 /* PedalPalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PedalPalTests;
+			sourceTree = "<group>";
+		};
+		16A854742F323F0700413976 /* PedalPalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PedalPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A854552F323F0400413976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A854642F323F0700413976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A8546E2F323F0700413976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A8544F2F323F0400413976 = {
+			isa = PBXGroup;
+			children = (
+				16A8548D2F3241F000413976 /* App */,
+				16A854842F32405D00413976 /* Core */,
+				16A854852F32408200413976 /* Fetaures */,
+				16A8548E2F32422700413976 /* Resources */,
+				16A8546A2F323F0700413976 /* PedalPalTests */,
+				16A854742F323F0700413976 /* PedalPalUITests */,
+				16A854592F323F0400413976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A854592F323F0400413976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A854582F323F0400413976 /* PedalPal.app */,
+				16A854672F323F0700413976 /* PedalPalTests.xctest */,
+				16A854712F323F0700413976 /* PedalPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A854842F32405D00413976 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				16A8548B2F3240B600413976 /* Data */,
+				16A8548A2F3240AF00413976 /* Domain */,
+				16A8548C2F3240BD00413976 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		16A854852F32408200413976 /* Fetaures */ = {
+			isa = PBXGroup;
+			children = (
+				16A854862F32408D00413976 /* Auth */,
+			);
+			path = Fetaures;
+			sourceTree = "<group>";
+		};
+		16A854862F32408D00413976 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				16A854892F3240A200413976 /* UI */,
+				16A854882F32409D00413976 /* Data */,
+				16A854872F32409600413976 /* Domain */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		16A854872F32409600413976 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		16A854882F32409D00413976 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		16A854892F3240A200413976 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16A8548A2F3240AF00413976 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		16A8548B2F3240B600413976 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		16A8548C2F3240BD00413976 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16A8548D2F3241F000413976 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				16A8548F2F32430E00413976 /* AppEnvironment.swift */,
+				16A8545B2F323F0500413976 /* PedalPalApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		16A8548E2F32422700413976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16A854612F323F0600413976 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A854572F323F0400413976 /* PedalPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A8547B2F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPal" */;
+			buildPhases = (
+				16A854542F323F0400413976 /* Sources */,
+				16A854552F323F0400413976 /* Frameworks */,
+				16A854562F323F0400413976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PedalPal;
+			packageProductDependencies = (
+			);
+			productName = PedalPal;
+			productReference = 16A854582F323F0400413976 /* PedalPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A854662F323F0700413976 /* PedalPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A8547E2F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPalTests" */;
+			buildPhases = (
+				16A854632F323F0700413976 /* Sources */,
+				16A854642F323F0700413976 /* Frameworks */,
+				16A854652F323F0700413976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A854692F323F0700413976 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16A8546A2F323F0700413976 /* PedalPalTests */,
+			);
+			name = PedalPalTests;
+			packageProductDependencies = (
+			);
+			productName = PedalPalTests;
+			productReference = 16A854672F323F0700413976 /* PedalPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A854702F323F0700413976 /* PedalPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A854812F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPalUITests" */;
+			buildPhases = (
+				16A8546D2F323F0700413976 /* Sources */,
+				16A8546E2F323F0700413976 /* Frameworks */,
+				16A8546F2F323F0700413976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A854732F323F0700413976 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16A854742F323F0700413976 /* PedalPalUITests */,
+			);
+			name = PedalPalUITests;
+			packageProductDependencies = (
+			);
+			productName = PedalPalUITests;
+			productReference = 16A854712F323F0700413976 /* PedalPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A854502F323F0400413976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					16A854572F323F0400413976 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					16A854662F323F0700413976 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 16A854572F323F0400413976;
+					};
+					16A854702F323F0700413976 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 16A854572F323F0400413976;
+					};
+				};
+			};
+			buildConfigurationList = 16A854532F323F0400413976 /* Build configuration list for PBXProject "PedalPal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A8544F2F323F0400413976;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16A854592F323F0400413976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A854572F323F0400413976 /* PedalPal */,
+				16A854662F323F0700413976 /* PedalPalTests */,
+				16A854702F323F0700413976 /* PedalPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A854562F323F0400413976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A854622F323F0600413976 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A854652F323F0700413976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A8546F2F323F0700413976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A854542F323F0400413976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A8545C2F323F0500413976 /* PedalPalApp.swift in Sources */,
+				16A854902F32431300413976 /* AppEnvironment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A854632F323F0700413976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A8546D2F323F0700413976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A854692F323F0700413976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A854572F323F0400413976 /* PedalPal */;
+			targetProxy = 16A854682F323F0700413976 /* PBXContainerItemProxy */;
+		};
+		16A854732F323F0700413976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A854572F323F0400413976 /* PedalPal */;
+			targetProxy = 16A854722F323F0700413976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16A854792F323F0700413976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A8547A2F323F0700413976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A8547C2F323F0700413976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16A8547D2F323F0700413976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16A8547F2F323F0700413976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedalPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PedalPal";
+			};
+			name = Debug;
+		};
+		16A854802F323F0700413976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedalPal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PedalPal";
+			};
+			name = Release;
+		};
+		16A854822F323F0700413976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PedalPal;
+			};
+			name = Debug;
+		};
+		16A854832F323F0700413976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSKK32Z9W5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quetoquenana.ios.PedalPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PedalPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A854532F323F0400413976 /* Build configuration list for PBXProject "PedalPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A854792F323F0700413976 /* Debug */,
+				16A8547A2F323F0700413976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A8547B2F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A8547C2F323F0700413976 /* Debug */,
+				16A8547D2F323F0700413976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A8547E2F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A8547F2F323F0700413976 /* Debug */,
+				16A854802F323F0700413976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A854812F323F0700413976 /* Build configuration list for PBXNativeTarget "PedalPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A854822F323F0700413976 /* Debug */,
+				16A854832F323F0700413976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A854502F323F0400413976 /* Project object */;
+}

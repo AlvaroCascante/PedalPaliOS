@@ -1,0 +1,15 @@
+
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+
+build/
+
+.swiftpm/
+.build/
+
+*.log
+
+*.env
+Secrets.plist
+GoogleService-Info.plist   # if different per env
