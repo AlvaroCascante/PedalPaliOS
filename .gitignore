@@ -13,3 +13,5 @@ build/
 *.env
 Secrets.plist
 GoogleService-Info.plist   # if different per env
+
+*.DS_Store

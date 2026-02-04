@@ -14,7 +14,7 @@ struct PedalPalApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AppRootView()
+            AuthGateView()
                 .modelContainer(environment.modelContainer)
         }
     }
