@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164379752F34D09C009D1434 /* PedalPal-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 164379742F34D09C009D1434 /* PedalPal-info.plist */; };
+		164379792F34D66F009D1434 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164379782F34D66F009D1434 /* Launch Screen.storyboard */; };
 		16596F032F3248A00091936F /* AuthGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F002F3248A00091936F /* AuthGateView.swift */; };
 		16596F0C2F324FCB0091936F /* BackendUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F0A2F324FCB0091936F /* BackendUser.swift */; };
 		16596F0D2F324FCB0091936F /* FirebaseUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F0B2F324FCB0091936F /* FirebaseUserInfo.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164379742F34D09C009D1434 /* PedalPal-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PedalPal-info.plist"; sourceTree = "<group>"; };
+		164379782F34D66F009D1434 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		16596F002F3248A00091936F /* AuthGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateView.swift; sourceTree = "<group>"; };
 		16596F072F324FCB0091936F /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
 		16596F082F324FCB0091936F /* BackendCreateUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendCreateUserRequest.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 		16C95C292F34438700F04057 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		16C95C2D2F34439000F04057 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		16C95C312F34439600F04057 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		16C95C382F34471600F04057 /* README_LaunchScreen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_LaunchScreen.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -162,6 +167,7 @@
 				16A8546A2F323F0700413976 /* PedalPalTests */,
 				16A854742F323F0700413976 /* PedalPalUITests */,
 				16A854592F323F0400413976 /* Products */,
+				164379742F34D09C009D1434 /* PedalPal-info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,6 +275,8 @@
 			isa = PBXGroup;
 			children = (
 				16A854612F323F0600413976 /* Assets.xcassets */,
+				164379782F34D66F009D1434 /* Launch Screen.storyboard */,
+				16C95C382F34471600F04057 /* README_LaunchScreen.md */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -470,7 +478,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164379792F34D66F009D1434 /* Launch Screen.storyboard in Resources */,
 				16A854622F323F0600413976 /* Assets.xcassets in Resources */,
+				164379752F34D09C009D1434 /* PedalPal-info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,14 +689,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RSKK32Z9W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "PedalPal-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -711,14 +722,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RSKK32Z9W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "PedalPal-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
