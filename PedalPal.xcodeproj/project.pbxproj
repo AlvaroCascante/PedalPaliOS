@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16596F022F3248A00091936F /* AuthGateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F012F3248A00091936F /* AuthGateViewModel.swift */; };
 		16596F032F3248A00091936F /* AuthGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F002F3248A00091936F /* AuthGateView.swift */; };
 		16596F0C2F324FCB0091936F /* BackendUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F0A2F324FCB0091936F /* BackendUser.swift */; };
 		16596F0D2F324FCB0091936F /* FirebaseUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16596F0B2F324FCB0091936F /* FirebaseUserInfo.swift */; };
@@ -25,6 +24,13 @@
 		16A8545C2F323F0500413976 /* PedalPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A8545B2F323F0500413976 /* PedalPalApp.swift */; };
 		16A854622F323F0600413976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A854612F323F0600413976 /* Assets.xcassets */; };
 		16A854902F32431300413976 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A8548F2F32430E00413976 /* AppEnvironment.swift */; };
+		16C95C1F2F343D5400F04057 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C1E2F343D5400F04057 /* LoginViewModel.swift */; };
+		16C95C202F343D5400F04057 /* LoginUiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C1D2F343D5400F04057 /* LoginUiState.swift */; };
+		16C95C242F34437800F04057 /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C212F34437800F04057 /* AppointmentsView.swift */; };
+		16C95C282F34438200F04057 /* BikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C252F34438200F04057 /* BikesView.swift */; };
+		16C95C2C2F34438700F04057 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C292F34438700F04057 /* HomeView.swift */; };
+		16C95C302F34439000F04057 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C2D2F34439000F04057 /* MainTabView.swift */; };
+		16C95C342F34439600F04057 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C95C312F34439600F04057 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		16596F002F3248A00091936F /* AuthGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateView.swift; sourceTree = "<group>"; };
-		16596F012F3248A00091936F /* AuthGateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateViewModel.swift; sourceTree = "<group>"; };
 		16596F072F324FCB0091936F /* AuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
 		16596F082F324FCB0091936F /* BackendCreateUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendCreateUserRequest.swift; sourceTree = "<group>"; };
 		16596F092F324FCB0091936F /* BackendPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendPerson.swift; sourceTree = "<group>"; };
@@ -66,6 +71,13 @@
 		16A854672F323F0700413976 /* PedalPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A854712F323F0700413976 /* PedalPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A8548F2F32430E00413976 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		16C95C1D2F343D5400F04057 /* LoginUiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUiState.swift; sourceTree = "<group>"; };
+		16C95C1E2F343D5400F04057 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		16C95C212F34437800F04057 /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
+		16C95C252F34438200F04057 /* BikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikesView.swift; sourceTree = "<group>"; };
+		16C95C292F34438700F04057 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		16C95C2D2F34439000F04057 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		16C95C312F34439600F04057 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -177,6 +189,11 @@
 			isa = PBXGroup;
 			children = (
 				16A854862F32408D00413976 /* Auth */,
+				16C95C232F34437800F04057 /* Appointments */,
+				16C95C272F34438200F04057 /* Bikes */,
+				16C95C2B2F34438700F04057 /* Home */,
+				16C95C2F2F34439000F04057 /* MainTab */,
+				16C95C332F34439600F04057 /* Profile */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -212,7 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				16596F002F3248A00091936F /* AuthGateView.swift */,
-				16596F012F3248A00091936F /* AuthGateViewModel.swift */,
+				16C95C1D2F343D5400F04057 /* LoginUiState.swift */,
+				16C95C1E2F343D5400F04057 /* LoginViewModel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -253,6 +271,86 @@
 				16A854612F323F0600413976 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		16C95C222F34437800F04057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C212F34437800F04057 /* AppointmentsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16C95C232F34437800F04057 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C222F34437800F04057 /* UI */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		16C95C262F34438200F04057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C252F34438200F04057 /* BikesView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16C95C272F34438200F04057 /* Bikes */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C262F34438200F04057 /* UI */,
+			);
+			path = Bikes;
+			sourceTree = "<group>";
+		};
+		16C95C2A2F34438700F04057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C292F34438700F04057 /* HomeView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16C95C2B2F34438700F04057 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C2A2F34438700F04057 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16C95C2E2F34439000F04057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C2D2F34439000F04057 /* MainTabView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16C95C2F2F34439000F04057 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C2E2F34439000F04057 /* UI */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		16C95C322F34439600F04057 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C312F34439600F04057 /* ProfileView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16C95C332F34439600F04057 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				16C95C322F34439600F04057 /* UI */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +429,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					16A854572F323F0400413976 = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -402,18 +500,24 @@
 				16596F0E2F324FCB0091936F /* BackendPerson.swift in Sources */,
 				16596F122F324FD70091936F /* AuthRepository.swift in Sources */,
 				16596F0F2F324FCB0091936F /* BackendCreateUserRequest.swift in Sources */,
+				16C95C2C2F34438700F04057 /* HomeView.swift in Sources */,
+				16C95C282F34438200F04057 /* BikesView.swift in Sources */,
 				16596F1A2F3250000091936F /* SignUpWithEmailUseCase.swift in Sources */,
 				16596F1B2F3250000091936F /* ReloadUserUseCase.swift in Sources */,
+				16C95C302F34439000F04057 /* MainTabView.swift in Sources */,
 				16596F1C2F3250000091936F /* CheckEmailVerifiedUseCase.swift in Sources */,
 				16596F1D2F3250000091936F /* SignInWithGoogleUseCase.swift in Sources */,
 				16596F1E2F3250000091936F /* SendVerificationEmailUseCase.swift in Sources */,
 				16596F1F2F3250000091936F /* SignInWithEmailUseCase.swift in Sources */,
 				16596F202F3250000091936F /* CreateBackendUserUseCase.swift in Sources */,
 				16596F102F324FCB0091936F /* AuthToken.swift in Sources */,
+				16C95C342F34439600F04057 /* ProfileView.swift in Sources */,
 				16A8545C2F323F0500413976 /* PedalPalApp.swift in Sources */,
-				16596F022F3248A00091936F /* AuthGateViewModel.swift in Sources */,
+				16C95C242F34437800F04057 /* AppointmentsView.swift in Sources */,
 				16596F032F3248A00091936F /* AuthGateView.swift in Sources */,
 				16A854902F32431300413976 /* AppEnvironment.swift in Sources */,
+				16C95C1F2F343D5400F04057 /* LoginViewModel.swift in Sources */,
+				16C95C202F343D5400F04057 /* LoginUiState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +610,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -563,6 +668,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
