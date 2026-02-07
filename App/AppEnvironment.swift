@@ -5,18 +5,36 @@
 //  Created by Alvaro Cascante Retana on 3/2/26.
 //
 
-import SwiftData
+import Foundation
+import Combine
 
-final class AppEnvironment {
-    let modelContainer: ModelContainer
-
+@MainActor
+final class AppEnvironment: ObservableObject {
+    let authRepository: AuthRepository
+    
     init() {
-        let schema = Schema([
-            // Add real models later
-        ])
+        let firebaseDS = FirebaseAuthDataSourceImpl()
+        let remoteDS = AuthRemoteDataSourceImpl(baseURL: "https://api.pedalpal.com")
 
-        self.modelContainer = try! ModelContainer(
-            for: schema
+        self.authRepository = AuthRepositoryImpl(
+            remote: remoteDS,
+            firebase: firebaseDS
+        )
+        
+    }
+}
+
+extension AppEnvironment {
+    func makeLoginViewModel() -> LoginViewModel {
+        LoginViewModel(
+            useCases: LoginUseCases(
+                checkEmailVerified: CheckEmailVerifiedUseCase(authRepository: authRepository),
+                sendVerificationEmail: SendVerificationEmailUseCase(authRepository: authRepository),
+                signInWithEmail: SignInWithEmailUseCase(authRepository: authRepository),
+                signInWithGoogle: SignInWithGoogleUseCase(authRepository: authRepository),
+                signUpWithEmail: SignUpWithEmailUseCase(authRepository: authRepository),
+                reloadUser: ReloadUserUseCase(authRepository: authRepository),
+            )
         )
     }
 }

@@ -1,10 +1,14 @@
-import Foundation
+//
+//  FirebaseAuthDataSource.swift
+//  PedalPal
+//
+//  Created by Alvaro Cascante Retana on 5/2/26.
+//
 
-public protocol AuthRepository {
-    func createBackendUser(request: BackendCreateUserRequest, firebaseIdToken: String) async throws -> AuthToken
+protocol FirebaseAuthDataSource {
     func getCurrentUserInfo() async throws -> FirebaseUserInfo?
-    func getFirebaseIdToken(forceRefresh: Bool) async throws -> String
-    func isEmailVerified() async -> Bool
+    func getIdToken(forceRefresh: Bool) async throws -> String
+    func isEmailVerified() async throws -> Bool
     func reloadUser() async throws
     func sendEmailVerification() async throws
     func signInWithEmail(email: String, password: String) async throws -> FirebaseUserInfo

@@ -7,7 +7,7 @@ public struct CheckEmailVerifiedUseCase {
         self.authRepository = authRepository
     }
 
-    public func execute() async -> Bool {
-        await authRepository.isEmailVerified()
+    public func execute() async throws -> Bool {
+        try await authRepository.isEmailVerified()
     }
 }
